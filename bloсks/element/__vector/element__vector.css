@@ -1,0 +1,12 @@
+.element__vector {
+opacity: 1;
+}
+
+.element__vector:hover {
+    opacity: 0.8;
+  } 
+
+  .element__vector:active {
+    background-image: url(../../../images/Union.png);
+  }
+

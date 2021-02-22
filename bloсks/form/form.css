@@ -1,0 +1,36 @@
+.form {
+    width: 470px;
+    height: 370px;
+    position: absolute;
+    top: 150px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 0;
+    left: 0; bottom: 0; right: 0;  
+}
+
+@media screen and (max-width:688px) {
+    .form {
+        width: 282px;
+        height: 361px;
+        top: 65px;
+    }
+  }
+/*
+  .page::before {
+    width: 100%;
+    min-height: 100%;
+    content: "";
+    position: absolute;
+    background-color: rgba(42, 44, 47, 1);
+    opacity: .5;
+  }
+
+  .pages::before {
+    width: 100%;
+    min-height: 100%;
+    content: "";
+    position: absolute;
+    background-color: rgba(42, 44, 47, 1);
+    opacity: .5;
+  }*/
