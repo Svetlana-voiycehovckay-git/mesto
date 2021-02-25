@@ -7,8 +7,8 @@
     background-size: cover;
     background-position: center;
     background-color: #000000;
-    align-self: end; 
-    opacity: 1; 
+    align-self: end;
+    opacity: 1;
 }
 
 .profile__edit-button:hover {
