@@ -6,6 +6,7 @@
 @import url(../bloсks/header/header.css);
 @import url(../bloсks/header/__logo/header__logo.css);
 @import url(../bloсks/profile/profile.css);
+@import url(../bloсks/profile/__info-block/profile__info-block.css);
 @import url(../bloсks/profile/__image/profile__image.css);
 @import url(../bloсks/profile/__info/profile__info.css);
 @import url(../bloсks/profile/__title/profile__title.css);
@@ -23,18 +24,12 @@
 @import url(../bloсks/footer/footer.css);
 @import url(../bloсks/footer/__copyright/footer__copyright.css);
 
-@import url(../bloсks/form/form.css);
-@import url(../bloсks/form/__toggle/form__toggle.css);
-@import url(../bloсks/form/__close-icon/form__close-icon.css);
-@import url(../bloсks/form/__container/form__container.css);
-@import url(../bloсks/form/__admin/form__admin.css);
-@import url(../bloсks/form/__heading/form__heading.css);
-@import url(../bloсks/form/__info/form__info.css);
-@import url(../bloсks/form/__save/form__save.css);
-
-
-
-
-
+@import url(../bloсks/popup/popup.css);
+@import url(../bloсks/popup/_opened/popup_opened.css);
+@import url(../bloсks/popup/__close/popup__close.css);
+@import url(../bloсks/popup/__container/popup__container.css);
+@import url(../bloсks/popup/__heading/popup__heading.css);
+@import url(../bloсks/popup/__info/popup__info.css);
+@import url(../bloсks/popup/__save/popup__save.css);
 
 

@@ -1,5 +1,5 @@
 .profile__info {
-    width: 580px;
+    width: 336px;
     padding-left: 30px;
     display: grid;
     grid-template-columns: 294px 42px;
@@ -10,15 +10,9 @@
      "profile__subtitle .";
 }
 
-@media screen and (max-width:1279px) {
+@media screen and (max-width:690px) {
     .profile__info {
-        width: 221px; 
-    }
-  }
-
-@media screen and (max-width:1140px) {
-    .profile__info {
-        padding-left: 0;
+        width: 207px;
         margin-bottom: 36px;
         margin-top: 26px;
         grid-template-columns: 189px 18px;
