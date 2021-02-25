@@ -7,7 +7,7 @@
  * реализовано одно диалоговое окно - «попап»
 ### Файловая структура проекта по правилам Nested БЭМ.
 
-### Проект опубликован в GitHub Pages по адресу https://svetlana-voiycehovckay-git.github.io/mesto/index.html 
+### Проект опубликован в GitHub Pages по адресу https://svetlana-voiycehovckay-git.github.io/mesto/
 
 **Figma**
 
