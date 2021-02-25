@@ -10,17 +10,17 @@
     line-height: 1.22;
     text-align: center;
     color: #FFFFFF;
-    background-color: #000000; 
+    background-color: #000000;
     opacity: 1;
 }
 
 .popup__save:hover {
     opacity: 0.8;
-  } 
+} 
 
 @media screen and (max-width:688px) {
     .popup__save {
         margin-top: 25px;
         font-size: 14px;
     }
-  }
+}
