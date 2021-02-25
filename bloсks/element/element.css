@@ -4,11 +4,10 @@
     min-height: 361px;
     border-radius: 10px;
     background-color: #FFFFFF;
-
 }
 
   @media screen and (max-width: 320px) {
     .element {
         width: 100%;
     }
-  
+  }
