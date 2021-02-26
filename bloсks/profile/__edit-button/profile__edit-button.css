@@ -8,7 +8,11 @@
     background-position: center;
     background-color: #000000;
     align-self: end;
+<<<<<<< HEAD
     opacity: 1; 
+=======
+    opacity: 1;
+>>>>>>> d6f329248cf55bd191a67ac7dfc1bfa361b696df
 }
 
 .profile__edit-button:hover {
@@ -20,4 +24,8 @@
         width: 18px;
         height: 18px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d6f329248cf55bd191a67ac7dfc1bfa361b696df

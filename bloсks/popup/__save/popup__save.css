@@ -15,7 +15,11 @@
 }
 
 .popup__save:hover {
+<<<<<<< HEAD
     opacity: .8;
+=======
+    opacity: 0.8;
+>>>>>>> d6f329248cf55bd191a67ac7dfc1bfa361b696df
 } 
 
 @media screen and (max-width:688px) {
@@ -23,4 +27,8 @@
         margin-top: 25px;
         font-size: 14px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d6f329248cf55bd191a67ac7dfc1bfa361b696df

@@ -1,13 +1,26 @@
 .element {
+<<<<<<< HEAD
     width: 282px;
     margin-bottom: 20px;
     min-height: 361px;
     border-radius: 10px;
     background-color: #FFFFFF;
+=======
+  width: 282px;
+  margin-bottom: 20px;
+  min-height: 361px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+>>>>>>> d6f329248cf55bd191a67ac7dfc1bfa361b696df
 }
 
-  @media screen and (max-width: 320px) {
-    .element {
-        width: 100%;
+@media screen and (max-width: 320px) {
+  .element {
+      width: 100%; 
     }
+<<<<<<< HEAD
   }
+=======
+}
+  
+>>>>>>> d6f329248cf55bd191a67ac7dfc1bfa361b696df
