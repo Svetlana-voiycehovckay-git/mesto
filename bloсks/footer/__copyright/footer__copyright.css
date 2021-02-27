@@ -3,11 +3,17 @@
     padding-bottom: 60px;
     margin: 0;
     color: #545454;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.22;
 }
 
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 622px) {
     .footer__copyright {
         padding-top: 28px;
         padding-bottom: 36px;
+        font-size: 14px;
+        line-height: 1.21;
     }
   }

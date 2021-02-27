@@ -5,14 +5,14 @@
 @import url(../bloсks/page/__content/page__content.css);
 @import url(../bloсks/header/header.css);
 @import url(../bloсks/header/__logo/header__logo.css);
+@import url(../bloсks/header/__line/header__line.css);
 @import url(../bloсks/profile/profile.css);
 @import url(../bloсks/profile/__info-block/profile__info-block.css);
 @import url(../bloсks/profile/__image/profile__image.css);
 @import url(../bloсks/profile/__info/profile__info.css);
-@import url(../bloсks/profile/__title/profile__title.css);
+@import url(../bloсks/profile/__name/profile__name.css);
 @import url(../bloсks/profile/__edit-button/profile__edit-button.css);
-@import url(../bloсks/profile/__vector/profile__vector.css);
-@import url(../bloсks/profile/__subtitle/profile__subtitle.css);
+@import url(../bloсks/profile/__description/profile__description.css);
 @import url(../bloсks/profile/__add-button/profile__add-button.css);
 @import url(../bloсks/elements/elements.css);
 @import url(../bloсks/element/element.css);
@@ -29,6 +29,7 @@
 @import url(../bloсks/popup/__close/popup__close.css);
 @import url(../bloсks/popup/__container/popup__container.css);
 @import url(../bloсks/popup/__heading/popup__heading.css);
+
 @import url(../bloсks/popup/__info/popup__info.css);
 @import url(../bloсks/popup/__save/popup__save.css);
 

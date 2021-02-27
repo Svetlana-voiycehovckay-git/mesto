@@ -10,69 +10,72 @@
       <div class="page">
          <header class="header page__content">
             <img class="header__logo" src="./images/Vector.svg" alt="Место">
+            <div class="header__line"></div>
          </header>
          <main class="content page__content">
             <section class="profile">
                <div class="profile__info-block">
                   <img class="profile__image" src="./images/image.jpg" alt="Фотография Жак-Ива Кусто">
                   <div class="profile__info">
-                     <h1 class="profile__title">Жак-Ив Кусто </h1>
-                     <button class="profile__edit-button"></button>
-                     <p class="profile__subtitle">Исследователь океана</p>
+                     <h1 class="profile__name">Жак-Ив Кусто </h1>
+                     <button type="button" aria-label="Edit" class="profile__edit-button"></button>
+                     <p class="profile__description">Исследователь океана</p>
                   </div>
                </div>
-               <button class="profile__add-button"><img class="profile__vector" src="./images/Vector(1).svg" alt="Знак добавить"></button>  
+               <button type="button" aria-label="Add" class="profile__add-button"></button>  
             </section>
-            <section class="popup page__content">
+            <div class="popup page__content">
                <div class="popup__container">
-                  <h3 class="popup__heading">Редактировать профиль</h3>
+                  <h2 class="popup__heading">Редактировать профиль</h2>
                   <button type="button" class="popup__close"></button>
-                  <input type="text" class="popup__info popup__info_title" placeholder="">
-                  <input type="text" class="popup__info popup__info_subtitle" placeholder="">
-                  <input type="submit" class="popup__save" value="Сохранить">
+                  <form name="profile" class="popup__form">
+                    <input name="name" type="text" class="popup__info popup__info_type_name" placeholder="">
+                    <input name="description" type="text" class="popup__info popup__info_type_description" placeholder="">
+                    <button type="submit" class="popup__save">Сохранить</button>
+                  </form>
                </div>
-            </section>
+            </div>
             <section class="elements">
                <article class="element">
                   <img class="element__image" src="./images/altay-min.jpg" alt="Дорога среди хвойного леса Алтая">
                   <div class="element__card">
                      <h2 class="element__title">Алтай</h2>
-                     <button class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
+                     <button type="button" aria-label="like" class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
                   </div>
                </article>
                <article class="element">
                   <img class="element__image" src="./images/dombay-min.jpg" alt="Верхушки сосен на фоне вершин заснеженных гор">
                   <div class="element__card">
                      <h2 class="element__title">Домбай</h2>
-                     <button class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
+                     <button type="button" aria-label="like" class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
                   </div>
                </article>
                <article class="element">
                   <img class="element__image" src="./images/albrus-min.jpg" alt="Канатная дорога на фоне заснеженных гор">
                   <div class="element__card">
                      <h2 class="element__title">Эльбрус</h2>
-                     <button class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
+                     <button type="button" aria-label="like" class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
                   </div>
                </article>
                <article class="element">
                   <img class="element__image" src="./images/karahaevo-min.jpg" alt="Склоны гор в тумане">
                   <div class="element__card">
                      <h2 class="element__title">Карачаево</h2>
-                     <button class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
+                     <button type="button" aria-label="like" class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
                   </div>
                </article>
                <article class="element">
                   <img class="element__image" src="./images/ylta-min.jpg" alt="Вершина Ай-Петри">
                   <div class="element__card">
                      <h2 class="element__title">Ялта</h2>
-                     <button class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
+                     <button type="button" aria-label="like" class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
                   </div>
                </article>
                <article class="element">
                   <img class="element__image" src="./images/sohi-min.jpg" alt="Заснеженный горный массив">
                   <div class="element__card">
                      <h2 class="element__title">Сочи</h2>
-                     <button class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
+                     <button type="button" aria-label="like" class="element__group"><img class="element__vector" src="./images/Vector(3).svg" alt="Знак-сердечко"></button>
                   </div>
                </article>
             </section>
@@ -81,6 +84,6 @@
             <p class="footer__copyright">&copy; 2020  Светлана Войцеховская</p>
          </footer>
       </div>
-      <script src="./script.js"></script>
+      <script src="./script/script.js"></script>
    </body>
 </html>

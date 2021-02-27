@@ -4,19 +4,17 @@
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
     background-image: url(../../../images/Vector2.svg);
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     background-color: #000000;
     align-self: end;
-<<<<<<< HEAD
-    opacity: 1; 
-=======
     opacity: 1;
->>>>>>> d6f329248cf55bd191a67ac7dfc1bfa361b696df
+    cursor: pointer;
 }
 
 .profile__edit-button:hover {
-    opacity: 0.8;
+    opacity: 0.6;
+    transition: ease; 
 } 
 
 @media screen and (max-width:622px) {
@@ -24,8 +22,4 @@
         width: 18px;
         height: 18px;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> d6f329248cf55bd191a67ac7dfc1bfa361b696df

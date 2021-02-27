@@ -1,6 +1,7 @@
 .popup__heading {
     width: 100%;
     text-align: left;
+    margin: 0;
     margin-bottom: 54px;
     font-style: normal;
     font-weight: 900;
