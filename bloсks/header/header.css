@@ -1,12 +1,32 @@
 .header {
     max-width: 100%;
+    margin: 0 200px;
     padding-top: 45px;
     box-sizing: border-box;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
   }
   
+  @media screen and (max-width:1270px) {
+    .header {
+        margin: 0 100px;
+    }
+  }   
+
+  @media screen and (max-width:1063px) {
+    .header {
+        margin: 0 40px;
+    }
+  }  
+
+  @media screen and (max-width:978px) {
+    .header  {
+      margin: 0 19px;
+    }
+  }  
+
   @media screen and (max-width:320px) {
     .header {
+      margin: 0;
       padding-top: 22px;
-      border-bottom: 1px solid rgba(84, 84, 84, .7);
     }
   } 
